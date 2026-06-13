@@ -52,12 +52,6 @@
       "author": "susam", "source": "https://github.com/Gamf/invaders"
     },
     {
-      "slug": "chrome-dino", "title": "Chrome Dino", "category": "Arcade & Retro",
-      "path": "https://gamf.github.io/google-chrome-dino/www/", "icon": "🦖", "color": "#ff7a6c",
-      "dims": "2D", "tags": ["runner"], "license": "MIT",
-      "author": "KarthikNedunchezhiyan", "source": "https://github.com/Gamf/google-chrome-dino"
-    },
-    {
       "slug": "space-invaders", "title": "Space Invaders", "category": "Arcade & Retro",
       "path": "https://gamf.github.io/spaceinvaders/", "icon": "👾", "color": "#ff7a6c",
       "dims": "2D", "tags": ["shooter", "classic"], "license": "MIT",
@@ -92,12 +86,6 @@
       "path": "https://gamf.github.io/dino3d/", "icon": "🦖", "color": "#5ad1a8",
       "dims": "3D", "tags": ["runner", "webgl"], "license": "GPL-3.0",
       "author": "Priler", "source": "https://github.com/Gamf/dino3d"
-    },
-    {
-      "slug": "voxlords", "title": "VoxLords", "category": "3D / WebGL",
-      "path": "https://gamf.github.io/VoxLords/", "icon": "🧱", "color": "#5ad1a8",
-      "dims": "3D", "tags": ["voxel", "fps"], "license": "MIT",
-      "author": "Lallassu", "source": "https://github.com/Gamf/VoxLords"
     },
     {
       "slug": "memory", "title": "Memory", "category": "Cards & Casual",
