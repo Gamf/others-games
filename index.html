@@ -3,95 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-  <meta name="theme-color" content="#0e0f13">
+  <meta name="theme-color" content="#07080c">
   <title>Others' Games — Gamf</title>
-  <style>
-    *{box-sizing:border-box} html,body{margin:0;min-height:100%;background:radial-gradient(120% 80% at 50% -10%,#1b1f2e 0%,#0e0f13 60%);
-      color:#f2f3f5;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-tap-highlight-color:transparent}
-    header{padding:26px 16px 8px;text-align:center}
-    h1{margin:0;font-size:clamp(1.8rem,8vw,2.8rem);background:linear-gradient(90deg,#f2c14e,#ff7a6c);
-      -webkit-background-clip:text;background-clip:text;color:transparent}
-    .tagline{color:#9aa0ad;font-size:.95rem;margin:6px 0 0}
-    a.back{display:inline-block;margin:10px 0;color:#6c8cff;text-decoration:none;font-size:.9rem}
-    main{max-width:920px;margin:0 auto;padding:8px 16px 50px}
-    .cat{margin:22px 0}
-    .cat h2{font-size:1.2rem;margin:0 0 12px;display:flex;align-items:center;gap:8px}
-    .cat h2 .count{margin-left:auto;color:#7d8493;font-size:.82rem;font-weight:400}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px}
-    .card{background:#181b24;border:1px solid #242838;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
-    .thumb{aspect-ratio:16/9;display:grid;place-items:center;font-size:2.6rem;text-decoration:none;
-      background:linear-gradient(135deg,var(--c,#2a2f42),#11131b);transition:transform .08s}
-    .thumb:active{transform:scale(.97)}
-    .body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
-    .title{font-weight:600}
-    .meta{color:#7d8493;font-size:.76rem;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-    .lic{border:1px solid #2f3550;border-radius:999px;padding:1px 8px;color:#9aa6c4;font-size:.72rem}
-    .tags{color:#6f7689;font-size:.74rem}
-    .actions{display:flex;gap:8px;margin-top:auto;padding-top:6px}
-    .actions a{flex:1;text-align:center;text-decoration:none;border-radius:10px;padding:9px 0;font-size:.86rem;font-weight:600}
-    .play{background:linear-gradient(135deg,#6c8cff,#5ad1a8);color:#0e0f13}
-    .src{background:#222738;color:#aeb6c8;border:1px solid #2f3550}
-    .note{color:#7d8493;font-size:.85rem;text-align:center;margin-top:10px}
-    .err{color:#ff8f80}
-    footer{text-align:center;color:#5a6070;font-size:.8rem;padding:18px 0 30px}
-  </style>
+  <meta name="description" content="Open-source games by other developers — forked, touch-tuned, and hosted here with full credit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gamf.css">
 </head>
-<body>
-  <header>
-    <h1>Others' Games</h1>
-    <p class="tagline">Open-source games by other developers — forked &amp; hosted here, with full credit.</p>
-    <a class="back" href="../">← All Gamf games</a>
-  </header>
-  <main id="cats"><p class="note">Loading…</p></main>
-  <footer>Each game keeps its original author &amp; license. “Source” links to the fork on GitHub.</footer>
+<body class="gx" style="--gx-accent:#f2c14e">
+  <script src="gamf-icons.js"></script>
+  <script src="gamf-stats.js"></script>
+
+  <nav class="gx-nav">
+    <div class="gx-nav__inner">
+      <a class="gx-logo" href="../">
+        <span class="gx-logo__mark"><svg class="gx-ico"><use href="#i-logo"/></svg></span>
+        Gamf
+      </a>
+      <span class="gx-nav__spacer"></span>
+      <div class="gx-nav__links">
+        <a class="gx-btn gx-btn--ghost gx-btn--sm" href="../stats.html"><svg class="gx-ico"><use href="#i-stats"/></svg> Stats</a>
+        <a class="gx-btn gx-btn--ghost gx-btn--sm gx-back" href="../"><svg class="gx-ico"><use href="#i-back"/></svg> Hub</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="gx-wrap">
+    <header style="text-align:center;margin:var(--sp-5) 0 var(--sp-2)">
+      <h1 class="gx-section-title" style="margin:0">Others' Games</h1>
+      <p style="color:var(--gx-text-2);margin:6px 0 0">Open-source games by other developers — forked, touch-tuned, hosted here with full credit.</p>
+    </header>
+
+    <main id="cats">
+      <div class="gx-row">
+        <div class="gx-row__head"><span class="gx-row__title">Loading…</span></div>
+        <div class="gx-grid">
+          <div class="gx-skel"></div><div class="gx-skel"></div><div class="gx-skel"></div><div class="gx-skel"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="gx-foot gx-wrap">Each game keeps its original author &amp; license · “Source” links to the fork on GitHub</footer>
 
   <script type="module">
+    // Icon per category (falls back to the row pad icon).
+    const CAT_ICON = {
+      'Puzzle & Board': 'i-puzzle',
+      'Arcade & Retro': 'i-arcade',
+      '3D / WebGL': 'i-cube',
+      'Cards & Casual': 'i-pad',
+    };
+
     const main = document.getElementById('cats');
-    const esc = (s='') => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const esc = (s = '') => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const safeColor = (c) => (/^#[0-9a-fA-F]{3,8}$/.test(c || '') ? c : '#7c5cff');
+
+    if (window.gamfVisit) window.gamfVisit();
+
     try {
       const res = await fetch('games.json', { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       const games = data.games || [];
-      // group by category, preserving a sensible order
-      const order = data.categoryOrder || [];
+
+      // group by category
       const byCat = new Map();
       for (const g of games) {
         const k = g.category || 'Other';
         if (!byCat.has(k)) byCat.set(k, []);
         byCat.get(k).push(g);
       }
-      const cats = [...byCat.keys()].sort((a,b) => {
+
+      // order by data.categoryOrder, then any extras alphabetically
+      const order = data.categoryOrder || [];
+      const cats = [...byCat.keys()].sort((a, b) => {
         const ia = order.indexOf(a), ib = order.indexOf(b);
-        return (ia<0?99:ia) - (ib<0?99:ib) || a.localeCompare(b);
+        return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
       });
-      main.innerHTML = games.length ? '' : '<p class="note">No games listed yet.</p>';
+
+      main.innerHTML = games.length ? '' : '<p class="gx-empty">No games listed yet.</p>';
+
       for (const cat of cats) {
         const list = byCat.get(cat);
-        const sec = document.createElement('section');
-        sec.className = 'cat';
-        sec.innerHTML = `<h2>${esc(cat)} <span class="count">${list.length} game${list.length===1?'':'s'}</span></h2><div class="grid"></div>`;
-        const grid = sec.querySelector('.grid');
-        for (const g of list) {
-          const card = document.createElement('div');
-          card.className = 'card';
-          const tags = (g.tags||[]).map(esc).join(' · ');
-          card.innerHTML = `
-            <a class="thumb" href="${esc(g.path)}" style="--c:${/^#[0-9a-fA-F]{3,8}$/.test(g.color||'')?g.color:'#2a2f42'}">${esc(g.icon||'🎮')}</a>
-            <div class="body">
-              <div class="title">${esc(g.title)}</div>
-              <div class="meta">${g.author?`by ${esc(g.author)}`:''} ${g.license?`<span class="lic">${esc(g.license)}</span>`:''}</div>
-              ${tags?`<div class="tags">${tags}</div>`:''}
-              <div class="actions">
-                <a class="play" href="${esc(g.path)}">▶ Play</a>
-                ${g.source?`<a class="src" href="${esc(g.source)}" target="_blank" rel="noopener">Source</a>`:''}
-              </div>
-            </div>`;
-          grid.appendChild(card);
-        }
-        main.appendChild(sec);
+        const section = document.createElement('section');
+        section.className = 'gx-row';
+        section.innerHTML = `
+          <div class="gx-row__head">
+            <span class="gx-row__icon"><svg class="gx-ico"><use href="#${CAT_ICON[cat] || 'i-pad'}"/></svg></span>
+            <span class="gx-row__title">${esc(cat)}</span>
+            <span class="gx-row__count">${list.length} game${list.length === 1 ? '' : 's'}</span>
+          </div>
+          <div class="gx-grid"></div>`;
+        const grid = section.querySelector('.gx-grid');
+        for (const g of list) grid.appendChild(card(g));
+        main.appendChild(section);
       }
     } catch (e) {
-      main.innerHTML = `<p class="note err">Couldn't load games.json — ${esc(e.message)}</p>`;
+      main.innerHTML = `<p class="gx-error">Couldn't load games.json — ${esc(e.message)}</p>`;
+    }
+
+    function card(g) {
+      const card = document.createElement('div');
+      card.className = 'gx-card';
+      const cover = safeColor(g.color);
+      const tags = (g.tags || []).slice(0, 3).map(esc).join(' · ');
+      card.innerHTML = `
+        <a class="gx-cover" href="${esc(g.path)}" style="--cover:${cover}" data-play>
+          ${g.dims ? `<span class="gx-cover__dims">${esc(g.dims)}</span>` : ''}
+          <span class="gx-cover__glyph">${esc(g.icon || '🎮')}</span>
+          <span class="gx-cover__play"><svg class="gx-ico"><use href="#i-play"/></svg></span>
+        </a>
+        <div class="gx-card__body">
+          <a class="gx-card__title" href="${esc(g.path)}" data-play>${esc(g.title)}</a>
+          ${tags ? `<span class="gx-card__meta">${tags}</span>` : ''}
+          ${g.author ? `<span class="gx-card__by">by ${esc(g.author)}</span>` : ''}
+          <div class="gx-chips">
+            ${g.license ? `<span class="gx-badge">${esc(g.license)}</span>` : ''}
+          </div>
+          ${g.source ? `<a class="gx-btn gx-btn--ghost gx-btn--sm" style="margin-top:var(--sp-2)" href="${esc(g.source)}" target="_blank" rel="noopener"><svg class="gx-ico"><use href="#i-globe"/></svg> Source</a>` : ''}
+        </div>`;
+      // count a play on either Play link (cover or title) before navigating
+      for (const el of card.querySelectorAll('[data-play]')) {
+        el.addEventListener('click', () => window.gamfPlay && window.gamfPlay(g.slug));
+      }
+      return card;
     }
   </script>
 </body>
