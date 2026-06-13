@@ -1,0 +1,127 @@
+{
+  "genre": "others-games",
+  "title": "Others' Games",
+  "categoryOrder": ["Puzzle & Board", "Arcade & Retro", "3D / WebGL", "Cards & Casual"],
+  "games": [
+    {
+      "slug": "2048", "title": "2048", "category": "Puzzle & Board",
+      "path": "https://gamf.github.io/2048/", "icon": "🔢", "color": "#6c8cff",
+      "dims": "2D", "tags": ["numbers", "swipe"], "license": "MIT",
+      "author": "gabrielecirulli", "source": "https://github.com/Gamf/2048"
+    },
+    {
+      "slug": "sokoban", "title": "Sokoban", "category": "Puzzle & Board",
+      "path": "https://gamf.github.io/sokoban/", "icon": "📦", "color": "#6c8cff",
+      "dims": "2D", "tags": ["boxes", "logic"], "license": "MIT",
+      "author": "taniarascia", "source": "https://github.com/Gamf/sokoban"
+    },
+    {
+      "slug": "nonogram", "title": "Nonogram", "category": "Puzzle & Board",
+      "path": "https://gamf.github.io/nonogram/", "icon": "🔳", "color": "#6c8cff",
+      "dims": "2D", "tags": ["picross", "logic"], "license": "MIT",
+      "author": "monkeyArms", "source": "https://github.com/Gamf/nonogram"
+    },
+    {
+      "slug": "chess-ai", "title": "Chess AI", "category": "Puzzle & Board",
+      "path": "https://gamf.github.io/chess-ai/", "icon": "♟️", "color": "#6c8cff",
+      "dims": "2D", "tags": ["chess", "ai"], "license": "MIT",
+      "author": "zeyu2001", "source": "https://github.com/Gamf/chess-ai"
+    },
+    {
+      "slug": "match3", "title": "Match Three", "category": "Puzzle & Board",
+      "path": "https://gamf.github.io/Match-3-Game-HTML5/match3.html", "icon": "💎", "color": "#6c8cff",
+      "dims": "2D", "tags": ["match-3"], "license": "MIT",
+      "author": "rembound", "source": "https://github.com/Gamf/Match-3-Game-HTML5"
+    },
+    {
+      "slug": "tetris", "title": "Tetris", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/javascript-tetris/", "icon": "🟦", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["blocks", "classic"], "license": "MIT",
+      "author": "jakesgordon", "source": "https://github.com/Gamf/javascript-tetris"
+    },
+    {
+      "slug": "snakes", "title": "Snakes", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/javascript-snakes/", "icon": "🐍", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["classic"], "license": "MIT",
+      "author": "jakesgordon", "source": "https://github.com/Gamf/javascript-snakes"
+    },
+    {
+      "slug": "andromeda-invaders", "title": "Andromeda Invaders", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/invaders/invaders.html", "icon": "👾", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["shooter", "retro"], "license": "MIT",
+      "author": "susam", "source": "https://github.com/Gamf/invaders"
+    },
+    {
+      "slug": "chrome-dino", "title": "Chrome Dino", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/google-chrome-dino/www/", "icon": "🦖", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["runner"], "license": "MIT",
+      "author": "KarthikNedunchezhiyan", "source": "https://github.com/Gamf/google-chrome-dino"
+    },
+    {
+      "slug": "space-invaders", "title": "Space Invaders", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/spaceinvaders/", "icon": "👾", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["shooter", "classic"], "license": "MIT",
+      "author": "dwmkerr", "source": "https://github.com/Gamf/spaceinvaders"
+    },
+    {
+      "slug": "invaderz", "title": "Invaderz", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/invaderz/", "icon": "🛸", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["shooter", "evolving"], "license": "MIT",
+      "author": "victorqribeiro", "source": "https://github.com/Gamf/invaderz"
+    },
+    {
+      "slug": "pacman", "title": "Pac-Man", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/pacman/", "icon": "🟡", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["maze", "classic"], "license": "WTFPL",
+      "author": "daleharvey", "source": "https://github.com/Gamf/pacman"
+    },
+    {
+      "slug": "anti-pacman", "title": "Anti Pac-Man", "category": "Arcade & Retro",
+      "path": "https://gamf.github.io/AntiPacMan/", "icon": "👻", "color": "#ff7a6c",
+      "dims": "2D", "tags": ["maze", "twist"], "license": "MIT",
+      "author": "vmikhav", "source": "https://github.com/Gamf/AntiPacMan"
+    },
+    {
+      "slug": "astray", "title": "Astray", "category": "3D / WebGL",
+      "path": "https://gamf.github.io/Astray/", "icon": "🌀", "color": "#5ad1a8",
+      "dims": "3D", "tags": ["maze", "webgl"], "license": "Unlicense",
+      "author": "wwwtyro", "source": "https://github.com/Gamf/Astray"
+    },
+    {
+      "slug": "trex-run-3d", "title": "T-Rex Run 3D", "category": "3D / WebGL",
+      "path": "https://gamf.github.io/dino3d/", "icon": "🦖", "color": "#5ad1a8",
+      "dims": "3D", "tags": ["runner", "webgl"], "license": "GPL-3.0",
+      "author": "Priler", "source": "https://github.com/Gamf/dino3d"
+    },
+    {
+      "slug": "voxlords", "title": "VoxLords", "category": "3D / WebGL",
+      "path": "https://gamf.github.io/VoxLords/", "icon": "🧱", "color": "#5ad1a8",
+      "dims": "3D", "tags": ["voxel", "fps"], "license": "MIT",
+      "author": "Lallassu", "source": "https://github.com/Gamf/VoxLords"
+    },
+    {
+      "slug": "memory", "title": "Memory", "category": "Cards & Casual",
+      "path": "https://gamf.github.io/memory/", "icon": "🧠", "color": "#f2c14e",
+      "dims": "2D", "tags": ["match", "memory"], "license": "MIT",
+      "author": "taniarascia", "source": "https://github.com/Gamf/memory"
+    },
+    {
+      "slug": "solitaire", "title": "Klondike Solitaire", "category": "Cards & Casual",
+      "path": "https://gamf.github.io/solitaire/", "icon": "🃏", "color": "#f2c14e",
+      "dims": "2D", "tags": ["cards", "solitaire"], "license": "MIT",
+      "author": "jhatzimalis", "source": "https://github.com/Gamf/solitaire"
+    },
+    {
+      "slug": "blackjack", "title": "Blackjack", "category": "Cards & Casual",
+      "path": "https://gamf.github.io/Blackjack/", "icon": "♠️", "color": "#f2c14e",
+      "dims": "2D", "tags": ["cards", "casino"], "license": "Apache-2.0",
+      "author": "Saganaki22", "source": "https://github.com/Gamf/Blackjack"
+    },
+    {
+      "slug": "freecell", "title": "FreeCell", "category": "Cards & Casual",
+      "path": "https://gamf.github.io/freecell/game/freecell.html", "icon": "🃏", "color": "#f2c14e",
+      "dims": "2D", "tags": ["cards", "solitaire"], "license": "GPL-3.0",
+      "author": "macroxue", "source": "https://github.com/Gamf/freecell"
+    }
+  ]
+}
