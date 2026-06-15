@@ -130,7 +130,7 @@
         ? `<a class="gx-btn gx-btn--sm" href="${esc(g.source)}" target="_blank" rel="noopener">${ico('i-search')} source</a>`
         : '';
       return `<a class="gx-cabinet" href="${esc(g.url)}">
-        <div class="gx-cab__thumb" style="--cover:${tint(g.slug)}">${ico(g.icon)}</div>
+        <div class="gx-cab__thumb" style="--cover:${tint(g.slug)}">${ico(g.icon)}<img class="gx-cab__img" src="${'thumbs/' + g.slug + '.svg'}" alt="" loading="lazy" onerror="this.remove()"></div>
         <div class="gx-cab__body">
           <div class="gx-cab__plate"><span class="gx-cab__genre">${esc(g.category)}</span><span class="gx-cab__dims">${esc(g.dims)}</span></div>
           <h3 class="gx-cab__title">${esc(g.title)}</h3>

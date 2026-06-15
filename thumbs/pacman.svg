@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <!-- background -->
+  <rect x="0" y="0" width="320" height="200" fill="#221f17"/>
+  <!-- cream border frame to read as a maze cabinet -->
+  <rect x="10" y="10" width="300" height="180" fill="none" stroke="#efe6d2" stroke-width="4"/>
+
+  <!-- maze walls (olive blocks, original layout) -->
+  <rect x="34" y="34" width="74" height="22" fill="#6f6a3b"/>
+  <rect x="132" y="34" width="56" height="22" fill="#6f6a3b"/>
+  <rect x="212" y="34" width="74" height="22" fill="#6f6a3b"/>
+
+  <rect x="34" y="78" width="34" height="44" fill="#6f6a3b"/>
+  <rect x="252" y="78" width="34" height="44" fill="#6f6a3b"/>
+
+  <!-- central ghost pen -->
+  <rect x="118" y="86" width="84" height="40" fill="none" stroke="#6f6a3b" stroke-width="8"/>
+
+  <rect x="34" y="144" width="74" height="22" fill="#6f6a3b"/>
+  <rect x="132" y="144" width="56" height="22" fill="#6f6a3b"/>
+  <rect x="212" y="144" width="74" height="22" fill="#6f6a3b"/>
+
+  <!-- pellet trail (ochre dots) along an open corridor -->
+  <circle cx="48" cy="67" r="3" fill="#c8923a"/>
+  <circle cx="66" cy="67" r="3" fill="#c8923a"/>
+  <circle cx="84" cy="67" r="3" fill="#c8923a"/>
+  <circle cx="102" cy="67" r="3" fill="#c8923a"/>
+  <circle cx="120" cy="67" r="3" fill="#c8923a"/>
+  <circle cx="138" cy="67" r="3" fill="#c8923a"/>
+  <!-- power pellet (larger, cream) -->
+  <circle cx="270" cy="67" r="7" fill="#efe6d2"/>
+
+  <!-- lower pellet row -->
+  <circle cx="156" cy="178" r="3" fill="#c8923a"/>
+  <circle cx="178" cy="178" r="3" fill="#c8923a"/>
+  <circle cx="200" cy="178" r="3" fill="#c8923a"/>
+
+  <!-- Pac-Man: ochre disc with a wedge mouth opening to the right -->
+  <path d="M 178 67 L 211 50 A 37 37 0 1 0 211 84 Z" fill="#c8923a"/>
+
+  <!-- Ghost 1 (oxblood) -->
+  <g>
+    <path d="M 60 138 a 18 18 0 0 1 36 0 v 18 l -6 -6 -6 6 -6 -6 -6 6 -6 -6 -6 6 Z" fill="#9b3a22"/>
+    <circle cx="71" cy="130" r="4" fill="#efe6d2"/>
+    <circle cx="85" cy="130" r="4" fill="#efe6d2"/>
+    <circle cx="72" cy="131" r="2" fill="#221f17"/>
+    <circle cx="86" cy="131" r="2" fill="#221f17"/>
+  </g>
+
+  <!-- Ghost 2 (cream, frightened) -->
+  <g>
+    <path d="M 224 138 a 18 18 0 0 1 36 0 v 18 l -6 -6 -6 6 -6 -6 -6 6 -6 -6 -6 6 Z" fill="#efe6d2"/>
+    <circle cx="235" cy="130" r="4" fill="#221f17"/>
+    <circle cx="249" cy="130" r="4" fill="#221f17"/>
+  </g>
+</svg>

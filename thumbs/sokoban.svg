@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect x="0" y="0" width="320" height="200" fill="#efe6d2"/>
+
+  <!-- warehouse floor grid (5 cols x 4 rows of 40px tiles, centered) -->
+  <rect x="60" y="20" width="200" height="160" fill="#6f6a3b"/>
+  <!-- grid lines via inset tiles -->
+  <rect x="62" y="22" width="36" height="36" fill="#7c774a"/>
+  <rect x="102" y="22" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="142" y="22" width="36" height="36" fill="#7c774a"/>
+  <rect x="182" y="22" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="222" y="22" width="36" height="36" fill="#7c774a"/>
+
+  <rect x="62" y="62" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="102" y="62" width="36" height="36" fill="#7c774a"/>
+  <rect x="142" y="62" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="182" y="62" width="36" height="36" fill="#7c774a"/>
+  <rect x="222" y="62" width="36" height="36" fill="#6f6a3b"/>
+
+  <rect x="62" y="102" width="36" height="36" fill="#7c774a"/>
+  <rect x="102" y="102" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="142" y="102" width="36" height="36" fill="#7c774a"/>
+  <rect x="182" y="102" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="222" y="102" width="36" height="36" fill="#7c774a"/>
+
+  <rect x="62" y="142" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="102" y="142" width="36" height="36" fill="#7c774a"/>
+  <rect x="142" y="142" width="36" height="36" fill="#6f6a3b"/>
+  <rect x="182" y="142" width="36" height="36" fill="#7c774a"/>
+  <rect x="222" y="142" width="36" height="36" fill="#6f6a3b"/>
+
+  <!-- goal targets (diamond markers on empty tiles) -->
+  <polygon points="200,76 210,86 200,96 190,86" fill="#9b3a22"/>
+  <polygon points="200,80 206,86 200,92 194,86" fill="#6f6a3b"/>
+
+  <polygon points="80,156 90,166 80,176 70,166" fill="#9b3a22"/>
+  <polygon points="80,160 86,166 80,172 74,166" fill="#6f6a3b"/>
+
+  <!-- crate 1: ochre box with cross-brace, on a goal (success = darker outline) -->
+  <rect x="104" y="64" width="32" height="32" fill="#c8923a"/>
+  <rect x="104" y="64" width="32" height="32" fill="none" stroke="#221f17" stroke-width="3"/>
+  <polygon points="104,64 136,96 132,96 104,68" fill="#221f17"/>
+  <polygon points="136,64 104,96 108,96 136,68" fill="#221f17"/>
+
+  <!-- crate 2: ochre box being pushed -->
+  <rect x="184" y="104" width="32" height="32" fill="#c8923a"/>
+  <rect x="184" y="104" width="32" height="32" fill="none" stroke="#221f17" stroke-width="3"/>
+  <polygon points="184,104 216,136 212,136 184,108" fill="#221f17"/>
+  <polygon points="216,104 184,136 188,136 216,108" fill="#221f17"/>
+
+  <!-- crate 3 (completed, sitting on a goal - oxblood tint) -->
+  <rect x="144" y="144" width="32" height="32" fill="#9b3a22"/>
+  <rect x="144" y="144" width="32" height="32" fill="none" stroke="#221f17" stroke-width="3"/>
+  <polygon points="144,144 176,176 172,176 144,148" fill="#efe6d2"/>
+  <polygon points="176,144 144,176 148,176 176,148" fill="#efe6d2"/>
+
+  <!-- player / warehouse keeper, pushing crate 2 from the left -->
+  <!-- body -->
+  <rect x="148" y="106" width="28" height="28" rx="4" fill="#221f17"/>
+  <!-- head -->
+  <circle cx="162" cy="100" r="9" fill="#efe6d2"/>
+  <rect x="153" y="94" width="18" height="6" rx="3" fill="#9b3a22"/>
+  <!-- arms reaching toward crate -->
+  <rect x="170" y="112" width="14" height="6" rx="3" fill="#efe6d2"/>
+  <rect x="170" y="122" width="14" height="6" rx="3" fill="#efe6d2"/>
+
+  <!-- push direction arrow -->
+  <polygon points="270,118 290,108 290,114 300,114 300,124 290,124 290,130" fill="#9b3a22"/>
+</svg>

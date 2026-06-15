@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#efe6d2"/>
+
+  <!-- puzzle backing plate -->
+  <rect x="26" y="24" width="208" height="152" rx="10" fill="#6f6a3b"/>
+  <rect x="33" y="31" width="194" height="138" rx="7" fill="#221f17"/>
+
+  <!-- highlighted found-word strip (diagonal, drawn under the letter cells) -->
+  <rect x="48" y="46" width="40" height="106" rx="18" fill="#9b3a22" transform="rotate(-39 130 100)"/>
+
+  <!-- 6x5 letter grid: faint olive cell ticks (the search field) -->
+  <!-- columns at x: 50 80 110 140 170 200 ; rows at y: 46 70 94 118 142 -->
+  <g fill="#6f6a3b">
+    <!-- row 1 -->
+    <rect x="44" y="40" width="12" height="12" rx="2"/>
+    <rect x="74" y="40" width="12" height="12" rx="2"/>
+    <rect x="104" y="40" width="12" height="12" rx="2"/>
+    <rect x="134" y="40" width="12" height="12" rx="2"/>
+    <rect x="164" y="40" width="12" height="12" rx="2"/>
+    <rect x="194" y="40" width="12" height="12" rx="2"/>
+    <!-- row 2 -->
+    <rect x="44" y="64" width="12" height="12" rx="2"/>
+    <rect x="74" y="64" width="12" height="12" rx="2"/>
+    <rect x="104" y="64" width="12" height="12" rx="2"/>
+    <rect x="134" y="64" width="12" height="12" rx="2"/>
+    <rect x="164" y="64" width="12" height="12" rx="2"/>
+    <rect x="194" y="64" width="12" height="12" rx="2"/>
+    <!-- row 3 -->
+    <rect x="44" y="88" width="12" height="12" rx="2"/>
+    <rect x="74" y="88" width="12" height="12" rx="2"/>
+    <rect x="104" y="88" width="12" height="12" rx="2"/>
+    <rect x="134" y="88" width="12" height="12" rx="2"/>
+    <rect x="164" y="88" width="12" height="12" rx="2"/>
+    <rect x="194" y="88" width="12" height="12" rx="2"/>
+    <!-- row 4 -->
+    <rect x="44" y="112" width="12" height="12" rx="2"/>
+    <rect x="74" y="112" width="12" height="12" rx="2"/>
+    <rect x="104" y="112" width="12" height="12" rx="2"/>
+    <rect x="134" y="112" width="12" height="12" rx="2"/>
+    <rect x="164" y="112" width="12" height="12" rx="2"/>
+    <rect x="194" y="112" width="12" height="12" rx="2"/>
+    <!-- row 5 -->
+    <rect x="44" y="136" width="12" height="12" rx="2"/>
+    <rect x="74" y="136" width="12" height="12" rx="2"/>
+    <rect x="104" y="136" width="12" height="12" rx="2"/>
+    <rect x="134" y="136" width="12" height="12" rx="2"/>
+    <rect x="164" y="136" width="12" height="12" rx="2"/>
+    <rect x="194" y="136" width="12" height="12" rx="2"/>
+  </g>
+
+  <!-- the traced word: dots over the diagonal cells (the gameplay gesture) -->
+  <circle cx="200" cy="46" r="7" fill="#efe6d2"/>
+  <circle cx="170" cy="70" r="7" fill="#efe6d2"/>
+  <circle cx="140" cy="94" r="7" fill="#efe6d2"/>
+  <circle cx="110" cy="118" r="7" fill="#efe6d2"/>
+  <circle cx="80" cy="142" r="7" fill="#efe6d2"/>
+  <!-- trace line connecting the found letters -->
+  <polyline points="200,46 170,70 140,94 110,118 80,142" fill="none" stroke="#c8923a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- magnifying glass (the "find" motif) over the board -->
+  <circle cx="246" cy="120" r="34" fill="#efe6d2"/>
+  <circle cx="246" cy="120" r="34" fill="none" stroke="#221f17" stroke-width="6"/>
+  <circle cx="246" cy="120" r="22" fill="none" stroke="#9b3a22" stroke-width="4"/>
+  <rect x="265" y="143" width="14" height="44" rx="7" fill="#221f17" transform="rotate(-45 272 165)"/>
+
+  <!-- found-letter glyph inside lens: simple 'W' for Word -->
+  <path d="M236 110 l4 20 l6 -14 l6 14 l4 -20" fill="none" stroke="#6f6a3b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

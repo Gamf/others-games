@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#221f17"/>
+  <!-- board frame -->
+  <rect x="14" y="16" width="292" height="168" fill="#6f6a3b"/>
+  <rect x="24" y="26" width="272" height="148" fill="#efe6d2"/>
+  <!-- center bar -->
+  <rect x="152" y="26" width="16" height="148" fill="#6f6a3b"/>
+
+  <!-- top points: left quadrant (x 24..152), 6 triangles -->
+  <polygon points="28,26 48,26 38,98" fill="#9b3a22"/>
+  <polygon points="49,26 69,26 59,98" fill="#c8923a"/>
+  <polygon points="70,26 90,26 80,98" fill="#9b3a22"/>
+  <polygon points="91,26 111,26 101,98" fill="#c8923a"/>
+  <polygon points="112,26 132,26 122,98" fill="#9b3a22"/>
+  <polygon points="133,26 153,26 143,98" fill="#c8923a"/>
+  <!-- top points: right quadrant (x 168..296) -->
+  <polygon points="167,26 187,26 177,98" fill="#c8923a"/>
+  <polygon points="188,26 208,26 198,98" fill="#9b3a22"/>
+  <polygon points="209,26 229,26 219,98" fill="#c8923a"/>
+  <polygon points="230,26 250,26 240,98" fill="#9b3a22"/>
+  <polygon points="251,26 271,26 261,98" fill="#c8923a"/>
+  <polygon points="272,26 292,26 282,98" fill="#9b3a22"/>
+
+  <!-- bottom points: left quadrant -->
+  <polygon points="28,174 48,174 38,102" fill="#c8923a"/>
+  <polygon points="49,174 69,174 59,102" fill="#9b3a22"/>
+  <polygon points="70,174 90,174 80,102" fill="#c8923a"/>
+  <polygon points="91,174 111,174 101,102" fill="#9b3a22"/>
+  <polygon points="112,174 132,174 122,102" fill="#c8923a"/>
+  <polygon points="133,174 153,174 143,102" fill="#9b3a22"/>
+  <!-- bottom points: right quadrant -->
+  <polygon points="167,174 187,174 177,102" fill="#9b3a22"/>
+  <polygon points="188,174 208,174 198,102" fill="#c8923a"/>
+  <polygon points="209,174 229,174 219,102" fill="#9b3a22"/>
+  <polygon points="230,174 250,174 240,102" fill="#c8923a"/>
+  <polygon points="251,174 271,174 261,102" fill="#9b3a22"/>
+  <polygon points="272,174 292,174 282,102" fill="#c8923a"/>
+
+  <!-- stacked checkers on a top-left point (cream) -->
+  <circle cx="38" cy="34" r="8" fill="#efe6d2" stroke="#221f17" stroke-width="1.5"/>
+  <circle cx="38" cy="50" r="8" fill="#efe6d2" stroke="#221f17" stroke-width="1.5"/>
+  <circle cx="38" cy="66" r="8" fill="#efe6d2" stroke="#221f17" stroke-width="1.5"/>
+
+  <!-- stacked checkers on a bottom-right point (ink) -->
+  <circle cx="282" cy="166" r="8" fill="#221f17" stroke="#efe6d2" stroke-width="1.5"/>
+  <circle cx="282" cy="150" r="8" fill="#221f17" stroke="#efe6d2" stroke-width="1.5"/>
+  <circle cx="282" cy="134" r="8" fill="#221f17" stroke="#efe6d2" stroke-width="1.5"/>
+
+  <!-- a couple of checkers mid-board -->
+  <circle cx="219" cy="48" r="8" fill="#221f17" stroke="#efe6d2" stroke-width="1.5"/>
+  <circle cx="101" cy="152" r="8" fill="#efe6d2" stroke="#221f17" stroke-width="1.5"/>
+
+  <!-- two dice in the right play area -->
+  <rect x="196" y="118" width="26" height="26" rx="4" fill="#efe6d2" stroke="#221f17" stroke-width="1.5"/>
+  <circle cx="203" cy="125" r="2.6" fill="#221f17"/>
+  <circle cx="215" cy="137" r="2.6" fill="#221f17"/>
+  <circle cx="209" cy="131" r="2.6" fill="#221f17"/>
+
+  <rect x="234" y="118" width="26" height="26" rx="4" fill="#9b3a22" stroke="#221f17" stroke-width="1.5"/>
+  <circle cx="241" cy="125" r="2.6" fill="#efe6d2"/>
+  <circle cx="253" cy="125" r="2.6" fill="#efe6d2"/>
+  <circle cx="241" cy="137" r="2.6" fill="#efe6d2"/>
+  <circle cx="253" cy="137" r="2.6" fill="#efe6d2"/>
+</svg>

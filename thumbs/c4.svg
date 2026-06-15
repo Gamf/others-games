@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect x="0" y="0" width="320" height="200" fill="#efe6d2"/>
+
+  <!-- disc about to drop above the third column -->
+  <circle cx="138" cy="22" r="12" fill="#c8923a" stroke="#221f17" stroke-width="2"/>
+
+  <!-- legs of the standing board -->
+  <polygon points="58,170 78,170 70,196 44,196" fill="#6f6a3b"/>
+  <polygon points="242,170 262,170 276,196 250,196" fill="#6f6a3b"/>
+
+  <!-- board backing (olive frame) -->
+  <rect x="56" y="44" width="208" height="132" rx="12" fill="#6f6a3b"/>
+  <rect x="64" y="52" width="192" height="116" rx="8" fill="#221f17"/>
+
+  <!-- empty hole grid: 7 columns x 6 rows -->
+  <!-- columns centered at x = 86,110,134,158,182,206,230 ; rows centered at y = 70,87,104,121,138,155 -->
+
+  <!-- row 1 (top) -->
+  <circle cx="86" cy="70" r="9" fill="#efe6d2"/>
+  <circle cx="110" cy="70" r="9" fill="#efe6d2"/>
+  <circle cx="134" cy="70" r="9" fill="#efe6d2"/>
+  <circle cx="158" cy="70" r="9" fill="#efe6d2"/>
+  <circle cx="182" cy="70" r="9" fill="#efe6d2"/>
+  <circle cx="206" cy="70" r="9" fill="#efe6d2"/>
+  <circle cx="230" cy="70" r="9" fill="#efe6d2"/>
+
+  <!-- row 2 -->
+  <circle cx="86" cy="87" r="9" fill="#efe6d2"/>
+  <circle cx="110" cy="87" r="9" fill="#efe6d2"/>
+  <circle cx="134" cy="87" r="9" fill="#efe6d2"/>
+  <circle cx="158" cy="87" r="9" fill="#efe6d2"/>
+  <circle cx="182" cy="87" r="9" fill="#efe6d2"/>
+  <circle cx="206" cy="87" r="9" fill="#efe6d2"/>
+  <circle cx="230" cy="87" r="9" fill="#efe6d2"/>
+
+  <!-- row 3 -->
+  <circle cx="86" cy="104" r="9" fill="#efe6d2"/>
+  <circle cx="110" cy="104" r="9" fill="#efe6d2"/>
+  <circle cx="134" cy="104" r="9" fill="#efe6d2"/>
+  <circle cx="158" cy="104" r="9" fill="#efe6d2"/>
+  <circle cx="182" cy="104" r="9" fill="#efe6d2"/>
+  <circle cx="206" cy="104" r="9" fill="#efe6d2"/>
+  <circle cx="230" cy="104" r="9" fill="#efe6d2"/>
+
+  <!-- row 4 -->
+  <circle cx="86" cy="121" r="9" fill="#efe6d2"/>
+  <circle cx="110" cy="121" r="9" fill="#efe6d2"/>
+  <circle cx="134" cy="121" r="9" fill="#efe6d2"/>
+  <circle cx="158" cy="121" r="9" fill="#efe6d2"/>
+  <circle cx="182" cy="121" r="9" fill="#efe6d2"/>
+  <circle cx="206" cy="121" r="9" fill="#efe6d2"/>
+  <circle cx="230" cy="121" r="9" fill="#efe6d2"/>
+
+  <!-- row 5 -->
+  <circle cx="86" cy="138" r="9" fill="#efe6d2"/>
+  <circle cx="110" cy="138" r="9" fill="#efe6d2"/>
+  <circle cx="134" cy="138" r="9" fill="#efe6d2"/>
+  <circle cx="158" cy="138" r="9" fill="#efe6d2"/>
+  <circle cx="182" cy="138" r="9" fill="#efe6d2"/>
+  <circle cx="206" cy="138" r="9" fill="#efe6d2"/>
+  <circle cx="230" cy="138" r="9" fill="#efe6d2"/>
+
+  <!-- row 6 (bottom) -->
+  <circle cx="86" cy="155" r="9" fill="#efe6d2"/>
+  <circle cx="110" cy="155" r="9" fill="#efe6d2"/>
+  <circle cx="134" cy="155" r="9" fill="#efe6d2"/>
+  <circle cx="158" cy="155" r="9" fill="#efe6d2"/>
+  <circle cx="182" cy="155" r="9" fill="#efe6d2"/>
+  <circle cx="206" cy="155" r="9" fill="#efe6d2"/>
+  <circle cx="230" cy="155" r="9" fill="#efe6d2"/>
+
+  <!-- played discs: oxblood = red player, ochre = yellow player -->
+  <!-- a winning diagonal of oxblood discs from bottom-left up to the right -->
+  <circle cx="86" cy="155" r="9" fill="#9b3a22"/>
+  <circle cx="110" cy="138" r="9" fill="#9b3a22"/>
+  <circle cx="134" cy="121" r="9" fill="#9b3a22"/>
+  <circle cx="158" cy="104" r="9" fill="#9b3a22"/>
+
+  <!-- ochre discs scattered in lower rows -->
+  <circle cx="110" cy="155" r="9" fill="#c8923a"/>
+  <circle cx="134" cy="155" r="9" fill="#c8923a"/>
+  <circle cx="158" cy="155" r="9" fill="#c8923a"/>
+  <circle cx="134" cy="138" r="9" fill="#c8923a"/>
+  <circle cx="158" cy="138" r="9" fill="#c8923a"/>
+  <circle cx="158" cy="121" r="9" fill="#c8923a"/>
+
+  <!-- a couple more oxblood to fill columns realistically -->
+  <circle cx="86" cy="138" r="9" fill="#c8923a"/>
+  <circle cx="182" cy="155" r="9" fill="#9b3a22"/>
+  <circle cx="206" cy="155" r="9" fill="#9b3a22"/>
+</svg>

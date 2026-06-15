@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect x="0" y="0" width="320" height="200" fill="#efe6d2"/>
+
+  <!-- board backing -->
+  <rect x="26" y="28" width="148" height="148" rx="8" fill="#221f17"/>
+
+  <!-- 4x4 checker squares (cream on olive base) -->
+  <rect x="33" y="35" width="134" height="134" fill="#6f6a3b"/>
+  <!-- light squares -->
+  <rect x="33" y="35" width="33.5" height="33.5" fill="#efe6d2"/>
+  <rect x="100" y="35" width="33.5" height="33.5" fill="#efe6d2"/>
+  <rect x="66.5" y="68.5" width="33.5" height="33.5" fill="#efe6d2"/>
+  <rect x="133.5" y="68.5" width="33.5" height="33.5" fill="#efe6d2"/>
+  <rect x="33" y="102" width="33.5" height="33.5" fill="#efe6d2"/>
+  <rect x="100" y="102" width="33.5" height="33.5" fill="#efe6d2"/>
+  <rect x="66.5" y="135.5" width="33.5" height="33.5" fill="#efe6d2"/>
+  <rect x="133.5" y="135.5" width="33.5" height="33.5" fill="#efe6d2"/>
+
+  <!-- a small ochre pawn sitting on the board (player piece) -->
+  <circle cx="50" cy="58" r="7" fill="#c8923a"/>
+  <path d="M44 80 Q50 64 56 80 Z" fill="#c8923a"/>
+  <rect x="43" y="78" width="14" height="5" rx="2" fill="#c8923a"/>
+
+  <!-- the AI: oxblood king as the main subject on the right -->
+  <!-- shadow base -->
+  <ellipse cx="244" cy="172" rx="58" ry="11" fill="#6f6a3b"/>
+
+  <!-- king base / pedestal -->
+  <rect x="208" y="156" width="72" height="16" rx="4" fill="#9b3a22"/>
+  <rect x="216" y="146" width="56" height="14" rx="3" fill="#9b3a22"/>
+
+  <!-- king body (tapered) -->
+  <path d="M222 148 L226 96 L262 96 L266 148 Z" fill="#9b3a22"/>
+
+  <!-- collar -->
+  <rect x="218" y="92" width="52" height="10" rx="3" fill="#c8923a"/>
+
+  <!-- crown head -->
+  <rect x="228" y="70" width="32" height="24" rx="4" fill="#9b3a22"/>
+
+  <!-- cross on top of the king -->
+  <rect x="240" y="40" width="8" height="34" rx="2" fill="#221f17"/>
+  <rect x="230" y="50" width="28" height="8" rx="2" fill="#221f17"/>
+
+  <!-- ochre band detail on body -->
+  <rect x="226" y="120" width="36" height="8" fill="#c8923a"/>
+
+  <!-- AI circuit hint: ink dots + connecting lines near the king head -->
+  <circle cx="296" cy="64" r="4" fill="#6f6a3b"/>
+  <circle cx="296" cy="92" r="4" fill="#6f6a3b"/>
+  <circle cx="296" cy="120" r="4" fill="#6f6a3b"/>
+  <rect x="262" y="62" width="34" height="4" rx="2" fill="#6f6a3b"/>
+  <rect x="266" y="90" width="30" height="4" rx="2" fill="#6f6a3b"/>
+  <rect x="262" y="118" width="34" height="4" rx="2" fill="#6f6a3b"/>
+</svg>

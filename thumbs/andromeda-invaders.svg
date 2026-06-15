@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect x="0" y="0" width="320" height="200" fill="#221f17"/>
+
+  <!-- scattered stars (flat squares) -->
+  <rect x="24" y="18" width="3" height="3" fill="#efe6d2"/>
+  <rect x="70" y="40" width="2" height="2" fill="#efe6d2"/>
+  <rect x="118" y="14" width="3" height="3" fill="#efe6d2"/>
+  <rect x="200" y="34" width="2" height="2" fill="#efe6d2"/>
+  <rect x="262" y="20" width="3" height="3" fill="#efe6d2"/>
+  <rect x="296" y="48" width="2" height="2" fill="#efe6d2"/>
+  <rect x="44" y="70" width="2" height="2" fill="#efe6d2"/>
+  <rect x="288" y="92" width="3" height="3" fill="#efe6d2"/>
+  <rect x="14" y="118" width="2" height="2" fill="#efe6d2"/>
+  <rect x="304" y="150" width="2" height="2" fill="#efe6d2"/>
+
+  <!-- ===== invader row 1 (ochre) ===== -->
+  <!-- invader A -->
+  <g fill="#c8923a">
+    <rect x="56" y="36" width="28" height="14"/>
+    <rect x="60" y="30" width="20" height="8"/>
+    <rect x="52" y="44" width="6" height="6"/>
+    <rect x="82" y="44" width="6" height="6"/>
+    <rect x="56" y="52" width="6" height="6"/>
+    <rect x="78" y="52" width="6" height="6"/>
+  </g>
+  <rect x="62" y="38" width="5" height="5" fill="#221f17"/>
+  <rect x="73" y="38" width="5" height="5" fill="#221f17"/>
+
+  <!-- invader B -->
+  <g fill="#c8923a">
+    <rect x="146" y="36" width="28" height="14"/>
+    <rect x="150" y="30" width="20" height="8"/>
+    <rect x="142" y="44" width="6" height="6"/>
+    <rect x="172" y="44" width="6" height="6"/>
+    <rect x="146" y="52" width="6" height="6"/>
+    <rect x="168" y="52" width="6" height="6"/>
+  </g>
+  <rect x="152" y="38" width="5" height="5" fill="#221f17"/>
+  <rect x="163" y="38" width="5" height="5" fill="#221f17"/>
+
+  <!-- invader C -->
+  <g fill="#c8923a">
+    <rect x="236" y="36" width="28" height="14"/>
+    <rect x="240" y="30" width="20" height="8"/>
+    <rect x="232" y="44" width="6" height="6"/>
+    <rect x="262" y="44" width="6" height="6"/>
+    <rect x="236" y="52" width="6" height="6"/>
+    <rect x="258" y="52" width="6" height="6"/>
+  </g>
+  <rect x="242" y="38" width="5" height="5" fill="#221f17"/>
+  <rect x="253" y="38" width="5" height="5" fill="#221f17"/>
+
+  <!-- ===== invader row 2 (oxblood) ===== -->
+  <!-- invader D -->
+  <g fill="#9b3a22">
+    <rect x="101" y="80" width="28" height="14"/>
+    <rect x="105" y="74" width="20" height="8"/>
+    <rect x="97" y="88" width="6" height="6"/>
+    <rect x="127" y="88" width="6" height="6"/>
+    <rect x="101" y="96" width="6" height="6"/>
+    <rect x="123" y="96" width="6" height="6"/>
+  </g>
+  <rect x="107" y="82" width="5" height="5" fill="#efe6d2"/>
+  <rect x="118" y="82" width="5" height="5" fill="#efe6d2"/>
+
+  <!-- invader E -->
+  <g fill="#9b3a22">
+    <rect x="191" y="80" width="28" height="14"/>
+    <rect x="195" y="74" width="20" height="8"/>
+    <rect x="187" y="88" width="6" height="6"/>
+    <rect x="217" y="88" width="6" height="6"/>
+    <rect x="191" y="96" width="6" height="6"/>
+    <rect x="213" y="96" width="6" height="6"/>
+  </g>
+  <rect x="197" y="82" width="5" height="5" fill="#efe6d2"/>
+  <rect x="208" y="82" width="5" height="5" fill="#efe6d2"/>
+
+  <!-- falling boulder / enemy shot -->
+  <rect x="158" y="120" width="6" height="6" fill="#c8923a"/>
+  <rect x="158" y="132" width="6" height="6" fill="#c8923a"/>
+
+  <!-- ===== player cannon firing pulse (olive) ===== -->
+  <!-- pulse beam rising -->
+  <rect x="73" y="118" width="4" height="30" fill="#6f6a3b"/>
+
+  <!-- player ship body -->
+  <g fill="#6f6a3b">
+    <rect x="55" y="178" width="40" height="14"/>
+    <rect x="63" y="170" width="24" height="10"/>
+    <rect x="72" y="160" width="6" height="12"/>
+  </g>
+  <!-- cannon base feet -->
+  <rect x="55" y="186" width="8" height="8" fill="#efe6d2"/>
+  <rect x="87" y="186" width="8" height="8" fill="#efe6d2"/>
+</svg>

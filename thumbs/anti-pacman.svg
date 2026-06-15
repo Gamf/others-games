@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <!-- background -->
+  <rect x="0" y="0" width="320" height="200" fill="#221f17"/>
+  <!-- cream cabinet frame -->
+  <rect x="10" y="10" width="300" height="180" fill="none" stroke="#efe6d2" stroke-width="4"/>
+
+  <!-- maze walls (olive) - an inverted / mirrored layout to read as "anti" -->
+  <rect x="30" y="30" width="60" height="20" fill="#6f6a3b"/>
+  <rect x="230" y="30" width="60" height="20" fill="#6f6a3b"/>
+  <rect x="146" y="30" width="28" height="20" fill="#6f6a3b"/>
+
+  <rect x="30" y="76" width="20" height="48" fill="#6f6a3b"/>
+  <rect x="270" y="76" width="20" height="48" fill="#6f6a3b"/>
+
+  <rect x="30" y="150" width="60" height="20" fill="#6f6a3b"/>
+  <rect x="230" y="150" width="60" height="20" fill="#6f6a3b"/>
+  <rect x="146" y="150" width="28" height="20" fill="#6f6a3b"/>
+
+  <!-- central pen drawn as a broken / opened box (the prey escaped) -->
+  <path d="M 118 84 H 160 M 202 84 H 160 M 118 84 V 116 H 202 V 84" fill="none" stroke="#6f6a3b" stroke-width="8"/>
+
+  <!-- swipe gesture arc (the core mechanic): cream dashed trail -->
+  <path d="M 96 100 q 30 -34 64 0 q 30 34 64 0" fill="none" stroke="#efe6d2" stroke-width="3" stroke-dasharray="6 7"/>
+  <!-- arrowhead at the end of the swipe -->
+  <path d="M 224 100 l -10 -7 l 2 7 l -2 7 Z" fill="#efe6d2"/>
+
+  <!-- The HUNTER ghost (oxblood) - the player's avatar, large, leading the chase -->
+  <g>
+    <path d="M 60 122 a 26 26 0 0 1 52 0 v 26 l -8.66 -8 -8.66 8 -8.66 -8 -8.66 8 -8.66 -8 -8.66 8 Z" fill="#9b3a22"/>
+    <circle cx="78" cy="110" r="6" fill="#efe6d2"/>
+    <circle cx="94" cy="110" r="6" fill="#efe6d2"/>
+    <circle cx="80" cy="111" r="3" fill="#221f17"/>
+    <circle cx="96" cy="111" r="3" fill="#221f17"/>
+  </g>
+
+  <!-- second hunter ghost (ochre), smaller, behind -->
+  <g>
+    <path d="M 120 132 a 18 18 0 0 1 36 0 v 18 l -6 -6 -6 6 -6 -6 -6 6 -6 -6 -6 6 Z" fill="#c8923a"/>
+    <circle cx="131" cy="124" r="4" fill="#efe6d2"/>
+    <circle cx="145" cy="124" r="4" fill="#efe6d2"/>
+    <circle cx="132" cy="125" r="2" fill="#221f17"/>
+    <circle cx="146" cy="125" r="2" fill="#221f17"/>
+  </g>
+
+  <!-- The PREY: Pac-Man now the one being hunted, fleeing to the right, mouth open in flight -->
+  <path d="M 250 100 L 220 82 A 35 35 0 1 1 220 118 Z" fill="#efe6d2"/>
+  <!-- worried eye -->
+  <circle cx="244" cy="82" r="4" fill="#221f17"/>
+
+  <!-- pellet crumbs left by the fleeing prey -->
+  <circle cx="200" cy="100" r="3" fill="#c8923a"/>
+  <circle cx="184" cy="100" r="3" fill="#c8923a"/>
+</svg>

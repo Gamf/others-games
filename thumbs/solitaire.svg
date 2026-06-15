@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <!-- table background -->
+  <rect x="0" y="0" width="320" height="200" fill="#efe6d2"/>
+
+  <!-- felt play area -->
+  <rect x="14" y="16" width="292" height="168" rx="10" fill="#6f6a3b"/>
+
+  <!-- ===== foundation row (top right): an empty slot + an Ace card ===== -->
+  <!-- empty foundation outline -->
+  <rect x="210" y="28" width="40" height="56" rx="5" fill="none" stroke="#221f17" stroke-width="3" stroke-dasharray="6 5"/>
+
+  <!-- foundation Ace of hearts -->
+  <rect x="258" y="28" width="40" height="56" rx="5" fill="#efe6d2"/>
+  <rect x="258" y="28" width="40" height="56" rx="5" fill="none" stroke="#221f17" stroke-width="2"/>
+  <!-- big heart center -->
+  <path d="M278 64 L266 51 Q262 45 268 42 Q274 40 278 47 Q282 40 288 42 Q294 45 290 51 Z" fill="#9b3a22"/>
+  <!-- corner pip -->
+  <rect x="262" y="33" width="6" height="3" fill="#9b3a22"/>
+  <path d="M271 40 L267 35 Q265 32 268 31 Q271 30 271 33 Q271 30 274 31 Q277 32 275 35 Z" fill="#9b3a22"/>
+
+  <!-- ===== stock + waste (top left) ===== -->
+  <!-- stock (face-down, ochre back) -->
+  <rect x="26" y="28" width="40" height="56" rx="5" fill="#9b3a22"/>
+  <rect x="26" y="28" width="40" height="56" rx="5" fill="none" stroke="#221f17" stroke-width="2"/>
+  <rect x="32" y="34" width="28" height="44" rx="3" fill="none" stroke="#c8923a" stroke-width="3"/>
+  <rect x="40" y="42" width="12" height="28" fill="#c8923a"/>
+  <rect x="34" y="50" width="24" height="12" fill="#c8923a"/>
+
+  <!-- waste (one face-up card, spade) -->
+  <rect x="74" y="28" width="40" height="56" rx="5" fill="#efe6d2"/>
+  <rect x="74" y="28" width="40" height="56" rx="5" fill="none" stroke="#221f17" stroke-width="2"/>
+  <path d="M94 64 Q82 54 82 46 Q82 39 88 42 Q92 44 94 50 Q96 44 100 42 Q106 39 106 46 Q106 54 94 64 Z" fill="#221f17"/>
+  <rect x="92" y="62" width="4" height="6" fill="#221f17"/>
+  <rect x="79" y="33" width="6" height="3" fill="#221f17"/>
+
+  <!-- ===== tableau column: a fanned pile of overlapping cards ===== -->
+  <!-- two face-down cards at the back -->
+  <rect x="120" y="96" width="48" height="64" rx="5" fill="#9b3a22"/>
+  <rect x="120" y="96" width="48" height="64" rx="5" fill="none" stroke="#221f17" stroke-width="2"/>
+  <rect x="124" y="112" width="48" height="64" rx="5" fill="#9b3a22"/>
+  <rect x="124" y="112" width="48" height="64" rx="5" fill="none" stroke="#221f17" stroke-width="2"/>
+
+  <!-- face-up red card (diamond) -->
+  <rect x="128" y="128" width="48" height="64" rx="5" fill="#efe6d2"/>
+  <rect x="128" y="128" width="48" height="64" rx="5" fill="none" stroke="#221f17" stroke-width="2"/>
+  <path d="M152 142 L164 160 L152 178 L140 160 Z" fill="#9b3a22"/>
+  <rect x="133" y="134" width="7" height="3" fill="#9b3a22"/>
+
+  <!-- ===== a black card being placed on top of the red (overlap, the play) ===== -->
+  <rect x="176" y="112" width="48" height="64" rx="5" fill="#efe6d2"/>
+  <rect x="176" y="112" width="48" height="64" rx="5" fill="none" stroke="#221f17" stroke-width="2"/>
+  <!-- club center -->
+  <circle cx="200" cy="138" r="7" fill="#221f17"/>
+  <circle cx="192" cy="146" r="7" fill="#221f17"/>
+  <circle cx="208" cy="146" r="7" fill="#221f17"/>
+  <rect x="197" y="146" width="6" height="9" fill="#221f17"/>
+  <rect x="181" y="118" width="7" height="3" fill="#221f17"/>
+
+  <!-- ===== large foundation King card (bottom right, main subject) ===== -->
+  <rect x="234" y="108" width="60" height="80" rx="7" fill="#efe6d2"/>
+  <rect x="234" y="108" width="60" height="80" rx="7" fill="none" stroke="#221f17" stroke-width="2"/>
+  <!-- crown -->
+  <path d="M250 152 L250 138 L258 146 L264 134 L270 146 L278 138 L278 152 Z" fill="#c8923a"/>
+  <rect x="250" y="152" width="28" height="6" fill="#c8923a"/>
+  <circle cx="258" cy="134" r="3" fill="#9b3a22"/>
+  <circle cx="270" cy="134" r="3" fill="#9b3a22"/>
+  <!-- corner K + heart -->
+  <rect x="239" y="114" width="9" height="3" fill="#9b3a22"/>
+  <path d="M244 128 L238 121 Q236 117 240 116 Q244 116 244 120 Q244 116 248 116 Q252 117 250 121 Z" fill="#9b3a22"/>
+</svg>

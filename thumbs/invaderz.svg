@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#221f17"/>
+  <!-- starfield -->
+  <rect x="30" y="22" width="4" height="4" fill="#efe6d2"/>
+  <rect x="90" y="40" width="3" height="3" fill="#c8923a"/>
+  <rect x="250" y="30" width="4" height="4" fill="#efe6d2"/>
+  <rect x="290" y="60" width="3" height="3" fill="#6f6a3b"/>
+  <rect x="60" y="90" width="3" height="3" fill="#efe6d2"/>
+  <rect x="210" y="78" width="3" height="3" fill="#c8923a"/>
+  <rect x="160" y="18" width="3" height="3" fill="#efe6d2"/>
+
+  <!-- alien invader (olive body, blocky) -->
+  <g fill="#6f6a3b">
+    <rect x="138" y="48" width="14" height="14"/>
+    <rect x="168" y="48" width="14" height="14"/>
+    <rect x="124" y="62" width="72" height="14"/>
+    <rect x="110" y="76" width="14" height="14"/>
+    <rect x="138" y="76" width="14" height="14"/>
+    <rect x="168" y="76" width="14" height="14"/>
+    <rect x="196" y="76" width="14" height="14"/>
+    <rect x="110" y="90" width="100" height="14"/>
+    <rect x="110" y="104" width="14" height="14"/>
+    <rect x="138" y="104" width="14" height="14"/>
+    <rect x="168" y="104" width="14" height="14"/>
+    <rect x="196" y="104" width="14" height="14"/>
+    <rect x="124" y="118" width="14" height="12"/>
+    <rect x="182" y="118" width="14" height="12"/>
+  </g>
+  <!-- alien eyes (oxblood) -->
+  <rect x="138" y="90" width="14" height="14" fill="#9b3a22"/>
+  <rect x="168" y="90" width="14" height="14" fill="#9b3a22"/>
+
+  <!-- player cannon (cream) -->
+  <g fill="#efe6d2">
+    <rect x="150" y="162" width="20" height="6"/>
+    <rect x="132" y="168" width="56" height="18"/>
+    <rect x="156" y="150" width="8" height="12"/>
+  </g>
+  <rect x="142" y="173" width="36" height="8" fill="#9b3a22"/>
+
+  <!-- player shot (ochre) -->
+  <rect x="157" y="132" width="6" height="16" fill="#c8923a"/>
+
+  <!-- ground line -->
+  <rect x="0" y="190" width="320" height="10" fill="#9b3a22"/>
+</svg>

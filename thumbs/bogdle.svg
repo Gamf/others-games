@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#efe6d2"/>
+
+  <!-- board backing plate -->
+  <rect x="70" y="34" width="180" height="132" rx="10" fill="#6f6a3b"/>
+  <rect x="78" y="42" width="164" height="116" rx="7" fill="#221f17"/>
+
+  <!-- 3x3 lettered tiles -->
+  <!-- row 1 -->
+  <rect x="86" y="50" width="44" height="34" rx="5" fill="#efe6d2"/>
+  <rect x="138" y="50" width="44" height="34" rx="5" fill="#c8923a"/>
+  <rect x="190" y="50" width="44" height="34" rx="5" fill="#efe6d2"/>
+  <!-- row 2 -->
+  <rect x="86" y="92" width="44" height="34" rx="5" fill="#9b3a22"/>
+  <rect x="138" y="92" width="44" height="34" rx="5" fill="#efe6d2"/>
+  <rect x="190" y="92" width="44" height="34" rx="5" fill="#c8923a"/>
+  <!-- row 3 -->
+  <rect x="86" y="134" width="44" height="34" rx="5" fill="#efe6d2"/>
+  <rect x="138" y="134" width="44" height="34" rx="5" fill="#9b3a22"/>
+  <rect x="190" y="134" width="44" height="34" rx="5" fill="#efe6d2"/>
+
+  <!-- letter glyphs drawn as simple shapes (no text) -->
+  <!-- B (tile r1c1, dark on cream) -->
+  <path d="M101 57 h11 a6 6 0 0 1 0 9 a6 6 0 0 1 0 9 h-11 z M101 57 v18" fill="none" stroke="#221f17" stroke-width="4" stroke-linejoin="round"/>
+  <!-- O (tile r1c2, ink on ochre) -->
+  <rect x="153" y="57" width="14" height="20" rx="7" fill="none" stroke="#221f17" stroke-width="4"/>
+  <!-- G (tile r1c3) -->
+  <path d="M218 60 a9 10 0 1 0 0 14 v-6 h-6" fill="none" stroke="#221f17" stroke-width="4" stroke-linecap="round"/>
+  <!-- D (tile r2c1, cream on oxblood) -->
+  <path d="M101 99 v20 h7 a10 10 0 0 0 0 -20 z" fill="none" stroke="#efe6d2" stroke-width="4" stroke-linejoin="round"/>
+  <!-- L (tile r2c2) -->
+  <path d="M155 99 v20 h11" fill="none" stroke="#221f17" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- E (tile r2c3, ink on ochre) -->
+  <path d="M218 99 h-11 v20 h11 M207 109 h8" fill="none" stroke="#221f17" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- A (tile r3c1) -->
+  <path d="M101 161 l6 -20 l6 20 M103.5 153 h7" fill="none" stroke="#221f17" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- R (tile r3c2, cream on oxblood) -->
+  <path d="M153 161 v-20 h8 a6 6 0 0 1 0 11 h-8 M159 152 l6 9" fill="none" stroke="#efe6d2" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- N (tile r3c3) -->
+  <path d="M207 161 v-20 l14 20 v-20" fill="none" stroke="#221f17" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- word-trace path connecting tiles (the gameplay gesture) -->
+  <polyline points="108,67 160,109 212,151 160,67" fill="none" stroke="#9b3a22" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <circle cx="108" cy="67" r="6" fill="#9b3a22"/>
+  <circle cx="160" cy="109" r="6" fill="#9b3a22"/>
+  <circle cx="212" cy="151" r="6" fill="#9b3a22"/>
+  <circle cx="160" cy="67" r="6" fill="#c8923a"/>
+</svg>

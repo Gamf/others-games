@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <!-- dark room background -->
+  <rect width="320" height="200" fill="#221f17"/>
+  <!-- back wall / darker upper band -->
+  <rect width="320" height="118" fill="#1a1813"/>
+  <!-- floor -->
+  <rect y="118" width="320" height="82" fill="#221f17"/>
+  <!-- warm glow pool radiating from the fire (stacked flat ellipses) -->
+  <ellipse cx="160" cy="150" rx="150" ry="50" fill="#2c2616"/>
+  <ellipse cx="160" cy="150" rx="118" ry="40" fill="#3d3219"/>
+  <ellipse cx="160" cy="150" rx="86" ry="30" fill="#5a4520"/>
+  <ellipse cx="160" cy="150" rx="56" ry="21" fill="#8a6328"/>
+  <ellipse cx="160" cy="150" rx="34" ry="13" fill="#c8923a"/>
+  <!-- light cast up the back wall -->
+  <polygon points="160,150 70,40 250,40" fill="#2c2616"/>
+  <polygon points="160,150 104,40 216,40" fill="#352c17"/>
+  <!-- stones ringing the fire pit -->
+  <ellipse cx="118" cy="156" rx="13" ry="8" fill="#6f6a3b"/>
+  <ellipse cx="146" cy="163" rx="13" ry="8" fill="#6f6a3b"/>
+  <ellipse cx="176" cy="163" rx="13" ry="8" fill="#6f6a3b"/>
+  <ellipse cx="204" cy="156" rx="13" ry="8" fill="#6f6a3b"/>
+  <ellipse cx="118" cy="153" rx="13" ry="8" fill="#827c47"/>
+  <ellipse cx="204" cy="153" rx="13" ry="8" fill="#827c47"/>
+  <!-- crossed logs -->
+  <polygon points="128,158 196,138 202,146 134,166" fill="#5a4226"/>
+  <polygon points="124,140 192,160 188,168 120,148" fill="#4a361f"/>
+  <ellipse cx="127" cy="143" rx="5" ry="4" fill="#7a5a33"/>
+  <ellipse cx="199" cy="142" rx="5" ry="4" fill="#7a5a33"/>
+  <!-- glowing embers on the logs -->
+  <circle cx="150" cy="151" r="3" fill="#c8923a"/>
+  <circle cx="168" cy="149" r="3" fill="#c8923a"/>
+  <circle cx="159" cy="153" r="2.5" fill="#efe6d2"/>
+  <!-- flames -->
+  <polygon points="160,150 144,118 152,128 158,104 164,128 172,116 176,150" fill="#9b3a22"/>
+  <polygon points="160,148 150,124 157,132 160,110 164,130 170,122 174,148" fill="#c8923a"/>
+  <polygon points="160,144 154,128 159,135 161,120 164,134 167,128 168,144" fill="#efe6d2"/>
+  <!-- faint sparks rising -->
+  <circle cx="148" cy="98" r="2" fill="#c8923a"/>
+  <circle cx="174" cy="90" r="1.6" fill="#c8923a"/>
+  <circle cx="162" cy="78" r="1.4" fill="#efe6d2"/>
+  <circle cx="138" cy="84" r="1.3" fill="#9b3a22"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#221f17"/>
+
+  <!-- starfield -->
+  <rect x="40" y="24" width="3" height="3" fill="#efe6d2"/>
+  <rect x="96" y="48" width="2" height="2" fill="#efe6d2"/>
+  <rect x="150" y="18" width="3" height="3" fill="#efe6d2"/>
+  <rect x="210" y="40" width="2" height="2" fill="#efe6d2"/>
+  <rect x="268" y="22" width="3" height="3" fill="#efe6d2"/>
+  <rect x="288" y="64" width="2" height="2" fill="#efe6d2"/>
+  <rect x="64" y="78" width="2" height="2" fill="#c8923a"/>
+  <rect x="184" y="70" width="2" height="2" fill="#c8923a"/>
+  <rect x="120" y="100" width="2" height="2" fill="#efe6d2"/>
+  <rect x="252" y="96" width="3" height="3" fill="#efe6d2"/>
+
+  <!-- enemy ships (top, pointing down) -->
+  <g>
+    <polygon points="96,40 76,26 86,40 96,52 106,40 116,26" fill="#9b3a22"/>
+    <rect x="91" y="36" width="10" height="8" fill="#c8923a"/>
+    <circle cx="96" cy="40" r="2.5" fill="#efe6d2"/>
+  </g>
+  <g>
+    <polygon points="224,40 204,26 214,40 224,52 234,40 244,26" fill="#9b3a22"/>
+    <rect x="219" y="36" width="10" height="8" fill="#c8923a"/>
+    <circle cx="224" cy="40" r="2.5" fill="#efe6d2"/>
+  </g>
+  <!-- center enemy, larger -->
+  <g>
+    <polygon points="160,56 132,36 146,56 160,72 174,56 188,36" fill="#6f6a3b"/>
+    <rect x="152" y="50" width="16" height="10" fill="#c8923a"/>
+    <circle cx="160" cy="55" r="3.5" fill="#efe6d2"/>
+  </g>
+
+  <!-- enemy fire (downward) -->
+  <rect x="158" y="80" width="4" height="12" fill="#c8923a"/>
+  <rect x="94" y="60" width="3" height="9" fill="#c8923a"/>
+
+  <!-- player bullets (upward) -->
+  <rect x="148" y="118" width="4" height="16" fill="#efe6d2"/>
+  <rect x="168" y="118" width="4" height="16" fill="#efe6d2"/>
+  <rect x="158" y="100" width="4" height="14" fill="#c8923a"/>
+
+  <!-- player ship (bottom, pointing up) -->
+  <g>
+    <!-- wings -->
+    <polygon points="160,148 128,176 142,168 142,176 160,168 178,176 178,168 192,176" fill="#6f6a3b"/>
+    <!-- fuselage -->
+    <polygon points="160,128 150,160 160,172 170,160" fill="#9b3a22"/>
+    <!-- cockpit -->
+    <polygon points="160,140 155,154 165,154" fill="#efe6d2"/>
+    <!-- thruster flames -->
+    <polygon points="154,172 158,186 160,176 162,186 166,172" fill="#c8923a"/>
+    <rect x="158" y="172" width="4" height="8" fill="#efe6d2"/>
+  </g>
+</svg>

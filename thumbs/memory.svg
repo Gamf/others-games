@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#221f17"/>
+  <rect x="14" y="14" width="292" height="172" rx="12" fill="#6f6a3b"/>
+
+  <!-- Row 1: face-down card with question emblem -->
+  <g>
+    <rect x="32" y="30" width="64" height="62" rx="8" fill="#9b3a22"/>
+    <rect x="40" y="38" width="48" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M55 52 a9 9 0 0 1 18 0 c0 7 -8 7 -9 13" fill="none" stroke="#9b3a22" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="64" cy="76" r="4" fill="#9b3a22"/>
+  </g>
+
+  <!-- Row 1: matched pair (left) revealed star -->
+  <g>
+    <rect x="108" y="30" width="64" height="62" rx="8" fill="#c8923a"/>
+    <rect x="116" y="38" width="48" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M140 44 l6 12 l13 2 l-9 9 l2 13 l-12 -6 l-12 6 l2 -13 l-9 -9 l13 -2 z" fill="#9b3a22"/>
+  </g>
+
+  <!-- Row 1: matched pair (right) revealed star -->
+  <g>
+    <rect x="184" y="30" width="64" height="62" rx="8" fill="#c8923a"/>
+    <rect x="192" y="38" width="48" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M216 44 l6 12 l13 2 l-9 9 l2 13 l-12 -6 l-12 6 l2 -13 l-9 -9 l13 -2 z" fill="#9b3a22"/>
+  </g>
+
+  <!-- Row 1: face-down question card -->
+  <g>
+    <rect x="260" y="30" width="34" height="62" rx="8" fill="#9b3a22"/>
+    <rect x="266" y="38" width="22" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M272 52 a5 5 0 0 1 10 0 c0 4 -4 4 -5 7" fill="none" stroke="#9b3a22" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="277" cy="74" r="2.5" fill="#9b3a22"/>
+  </g>
+
+  <!-- Row 2: face-down question card -->
+  <g>
+    <rect x="32" y="106" width="64" height="62" rx="8" fill="#9b3a22"/>
+    <rect x="40" y="114" width="48" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M55 128 a9 9 0 0 1 18 0 c0 7 -8 7 -9 13" fill="none" stroke="#9b3a22" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="64" cy="152" r="4" fill="#9b3a22"/>
+  </g>
+
+  <!-- Row 2: face-up moon icon -->
+  <g>
+    <rect x="108" y="106" width="64" height="62" rx="8" fill="#c8923a"/>
+    <rect x="116" y="114" width="48" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M148 122 a17 17 0 1 0 0 34 a13 13 0 0 1 0 -34 z" fill="#6f6a3b"/>
+  </g>
+
+  <!-- Row 2: face-down question card -->
+  <g>
+    <rect x="184" y="106" width="64" height="62" rx="8" fill="#9b3a22"/>
+    <rect x="192" y="114" width="48" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M207 128 a9 9 0 0 1 18 0 c0 7 -8 7 -9 13" fill="none" stroke="#9b3a22" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="216" cy="152" r="4" fill="#9b3a22"/>
+  </g>
+
+  <!-- Row 2: face-up moon icon (the pair) -->
+  <g>
+    <rect x="260" y="106" width="34" height="62" rx="8" fill="#c8923a"/>
+    <rect x="266" y="114" width="22" height="46" rx="5" fill="#efe6d2"/>
+    <path d="M280 122 a16 16 0 1 0 0 30 a12 12 0 0 1 0 -30 z" fill="#6f6a3b"/>
+  </g>
+</svg>

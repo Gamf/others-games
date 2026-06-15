@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#efe6d2"/>
+
+  <!-- board body -->
+  <rect x="24" y="46" width="272" height="108" rx="22" fill="#9b3a22"/>
+  <rect x="34" y="56" width="252" height="88" rx="16" fill="#c8923a"/>
+
+  <!-- left store -->
+  <ellipse cx="62" cy="100" rx="20" ry="38" fill="#6f6a3b"/>
+  <ellipse cx="62" cy="100" rx="14" ry="31" fill="#221f17"/>
+  <circle cx="58" cy="86" r="5" fill="#efe6d2"/>
+  <circle cx="66" cy="96" r="5" fill="#c8923a"/>
+  <circle cx="58" cy="106" r="5" fill="#9b3a22"/>
+  <circle cx="66" cy="116" r="5" fill="#efe6d2"/>
+
+  <!-- right store -->
+  <ellipse cx="258" cy="100" rx="20" ry="38" fill="#6f6a3b"/>
+  <ellipse cx="258" cy="100" rx="14" ry="31" fill="#221f17"/>
+  <circle cx="254" cy="88" r="5" fill="#9b3a22"/>
+  <circle cx="262" cy="98" r="5" fill="#efe6d2"/>
+  <circle cx="254" cy="108" r="5" fill="#c8923a"/>
+
+  <!-- top row of pits -->
+  <circle cx="104" cy="78" r="15" fill="#6f6a3b"/>
+  <circle cx="104" cy="78" r="10" fill="#221f17"/>
+  <circle cx="100" cy="74" r="4" fill="#efe6d2"/>
+  <circle cx="108" cy="80" r="4" fill="#c8923a"/>
+
+  <circle cx="140" cy="78" r="15" fill="#6f6a3b"/>
+  <circle cx="140" cy="78" r="10" fill="#221f17"/>
+  <circle cx="137" cy="76" r="4" fill="#9b3a22"/>
+  <circle cx="144" cy="81" r="4" fill="#efe6d2"/>
+
+  <circle cx="176" cy="78" r="15" fill="#6f6a3b"/>
+  <circle cx="176" cy="78" r="10" fill="#221f17"/>
+  <circle cx="173" cy="75" r="4" fill="#efe6d2"/>
+
+  <circle cx="212" cy="78" r="15" fill="#6f6a3b"/>
+  <circle cx="212" cy="78" r="10" fill="#221f17"/>
+  <circle cx="208" cy="75" r="4" fill="#c8923a"/>
+  <circle cx="216" cy="81" r="4" fill="#9b3a22"/>
+  <circle cx="212" cy="73" r="4" fill="#efe6d2"/>
+
+  <!-- bottom row of pits -->
+  <circle cx="104" cy="122" r="15" fill="#6f6a3b"/>
+  <circle cx="104" cy="122" r="10" fill="#221f17"/>
+  <circle cx="101" cy="119" r="4" fill="#efe6d2"/>
+  <circle cx="108" cy="124" r="4" fill="#9b3a22"/>
+
+  <circle cx="140" cy="122" r="15" fill="#6f6a3b"/>
+  <circle cx="140" cy="122" r="10" fill="#221f17"/>
+  <circle cx="137" cy="120" r="4" fill="#c8923a"/>
+
+  <circle cx="176" cy="122" r="15" fill="#6f6a3b"/>
+  <circle cx="176" cy="122" r="10" fill="#221f17"/>
+  <circle cx="173" cy="119" r="4" fill="#efe6d2"/>
+  <circle cx="180" cy="124" r="4" fill="#9b3a22"/>
+  <circle cx="176" cy="126" r="4" fill="#c8923a"/>
+
+  <circle cx="212" cy="122" r="15" fill="#6f6a3b"/>
+  <circle cx="212" cy="122" r="10" fill="#221f17"/>
+  <circle cx="209" cy="120" r="4" fill="#efe6d2"/>
+  <circle cx="216" cy="124" r="4" fill="#c8923a"/>
+</svg>

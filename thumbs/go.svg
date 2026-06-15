@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect x="0" y="0" width="320" height="200" fill="#efe6d2"/>
+
+  <!-- goban (wooden board), tilted slightly for depth via stacked plates -->
+  <rect x="44" y="40" width="232" height="132" rx="6" fill="#6f6a3b"/>
+  <rect x="48" y="36" width="232" height="132" rx="6" fill="#c8923a"/>
+
+  <!-- grid lines (ink) on the ochre board: 7x5 intersections -->
+  <!-- horizontal lines -->
+  <rect x="68" y="56" width="192" height="2.4" fill="#221f17"/>
+  <rect x="68" y="80" width="192" height="2.4" fill="#221f17"/>
+  <rect x="68" y="104" width="192" height="2.4" fill="#221f17"/>
+  <rect x="68" y="128" width="192" height="2.4" fill="#221f17"/>
+  <rect x="68" y="148" width="192" height="2.4" fill="#221f17"/>
+  <!-- vertical lines -->
+  <rect x="68" y="56" width="2.4" height="94.4" fill="#221f17"/>
+  <rect x="100" y="56" width="2.4" height="94.4" fill="#221f17"/>
+  <rect x="132" y="56" width="2.4" height="94.4" fill="#221f17"/>
+  <rect x="164" y="56" width="2.4" height="94.4" fill="#221f17"/>
+  <rect x="196" y="56" width="2.4" height="94.4" fill="#221f17"/>
+  <rect x="228" y="56" width="2.4" height="94.4" fill="#221f17"/>
+  <rect x="257.6" y="56" width="2.4" height="94.4" fill="#221f17"/>
+
+  <!-- star points (hoshi) -->
+  <circle cx="101.2" cy="81.2" r="3" fill="#221f17"/>
+  <circle cx="165.2" cy="81.2" r="3" fill="#221f17"/>
+  <circle cx="229.2" cy="81.2" r="3" fill="#221f17"/>
+  <circle cx="165.2" cy="129.2" r="3" fill="#221f17"/>
+
+  <!-- black stones on intersections -->
+  <circle cx="133.2" cy="81.2" r="10" fill="#221f17"/>
+  <circle cx="129.6" cy="77.6" r="3" fill="#6f6a3b"/>
+  <circle cx="133.2" cy="105.2" r="10" fill="#221f17"/>
+  <circle cx="129.6" cy="101.6" r="3" fill="#6f6a3b"/>
+  <circle cx="165.2" cy="105.2" r="10" fill="#221f17"/>
+  <circle cx="161.6" cy="101.6" r="3" fill="#6f6a3b"/>
+  <circle cx="101.2" cy="129.2" r="10" fill="#221f17"/>
+  <circle cx="97.6" cy="125.6" r="3" fill="#6f6a3b"/>
+
+  <!-- white stones on intersections -->
+  <circle cx="165.2" cy="81.2" r="10" fill="#efe6d2"/>
+  <circle cx="161.6" cy="77.6" r="3" fill="#ffffff"/>
+  <circle cx="197.2" cy="105.2" r="10" fill="#efe6d2"/>
+  <circle cx="193.6" cy="101.6" r="3" fill="#ffffff"/>
+  <circle cx="197.2" cy="81.2" r="10" fill="#efe6d2"/>
+  <circle cx="193.6" cy="77.6" r="3" fill="#ffffff"/>
+  <circle cx="133.2" cy="129.2" r="10" fill="#efe6d2"/>
+  <circle cx="129.6" cy="125.6" r="3" fill="#ffffff"/>
+
+  <!-- a captured/held stone in a bowl to the side (oxblood lacquer bowl) -->
+  <ellipse cx="44" cy="178" rx="30" ry="13" fill="#9b3a22"/>
+  <path d="M16 174 Q16 152 44 152 Q72 152 72 174 Z" fill="#9b3a22"/>
+  <ellipse cx="44" cy="160" rx="26" ry="10" fill="#221f17"/>
+  <circle cx="38" cy="158" r="6" fill="#221f17"/>
+  <circle cx="50" cy="161" r="6" fill="#221f17"/>
+  <circle cx="44" cy="155" r="6" fill="#efe6d2"/>
+</svg>

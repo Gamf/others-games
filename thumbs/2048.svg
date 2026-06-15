@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect x="0" y="0" width="320" height="200" fill="#efe6d2"/>
+
+  <!-- board backing -->
+  <rect x="92" y="20" width="160" height="160" rx="10" fill="#221f17"/>
+
+  <!-- empty cell slots -->
+  <rect x="102" y="30" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="140" y="30" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="178" y="30" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="216" y="30" width="32" height="32" rx="5" fill="#6f6a3b"/>
+
+  <rect x="102" y="68" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="140" y="68" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="178" y="68" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="216" y="68" width="32" height="32" rx="5" fill="#6f6a3b"/>
+
+  <rect x="102" y="106" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="140" y="106" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="178" y="106" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="216" y="106" width="32" height="32" rx="5" fill="#6f6a3b"/>
+
+  <rect x="102" y="144" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="140" y="144" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="178" y="144" width="32" height="32" rx="5" fill="#6f6a3b"/>
+  <rect x="216" y="144" width="32" height="32" rx="5" fill="#6f6a3b"/>
+
+  <!-- filled number tiles (value shown by pip count, low=cream, high=ochre/oxblood) -->
+
+  <!-- "2" tile: 2 pips, cream -->
+  <rect x="102" y="30" width="32" height="32" rx="5" fill="#efe6d2"/>
+  <circle cx="113" cy="46" r="3" fill="#221f17"/>
+  <circle cx="123" cy="46" r="3" fill="#221f17"/>
+
+  <!-- "4" tile: 4 pips, cream -->
+  <rect x="140" y="68" width="32" height="32" rx="5" fill="#efe6d2"/>
+  <circle cx="151" cy="79" r="3" fill="#221f17"/>
+  <circle cx="161" cy="79" r="3" fill="#221f17"/>
+  <circle cx="151" cy="89" r="3" fill="#221f17"/>
+  <circle cx="161" cy="89" r="3" fill="#221f17"/>
+
+  <!-- "8" tile: 3x3 minus one, ochre -->
+  <rect x="178" y="106" width="32" height="32" rx="5" fill="#c8923a"/>
+  <circle cx="186" cy="114" r="2.6" fill="#221f17"/>
+  <circle cx="194" cy="114" r="2.6" fill="#221f17"/>
+  <circle cx="202" cy="114" r="2.6" fill="#221f17"/>
+  <circle cx="186" cy="122" r="2.6" fill="#221f17"/>
+  <circle cx="202" cy="122" r="2.6" fill="#221f17"/>
+  <circle cx="186" cy="130" r="2.6" fill="#221f17"/>
+  <circle cx="194" cy="130" r="2.6" fill="#221f17"/>
+  <circle cx="202" cy="130" r="2.6" fill="#221f17"/>
+
+  <!-- big merged tile: oxblood, bold square mark -->
+  <rect x="216" y="144" width="32" height="32" rx="5" fill="#9b3a22"/>
+  <rect x="225" y="153" width="14" height="14" rx="3" fill="#efe6d2"/>
+  <rect x="229" y="157" width="6" height="6" rx="1" fill="#9b3a22"/>
+
+  <!-- a low cream tile bottom-left -->
+  <rect x="102" y="144" width="32" height="32" rx="5" fill="#efe6d2"/>
+  <circle cx="118" cy="160" r="3" fill="#221f17"/>
+
+  <!-- slide direction arrow (left swipe hint) -->
+  <polygon points="60,100 78,86 78,94 84,94 84,106 78,106 78,114" fill="#9b3a22"/>
+  <polygon points="284,100 266,86 266,94 260,94 260,106 266,106 266,114" fill="#c8923a"/>
+</svg>

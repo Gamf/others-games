@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <!-- background -->
+  <rect x="0" y="0" width="320" height="200" fill="#efe6d2"/>
+
+  <!-- play lane backing -->
+  <rect x="14" y="48" width="292" height="104" rx="8" fill="#221f17"/>
+
+  <!-- red danger bar on the left (tiles must be cleared before reaching it) -->
+  <rect x="22" y="54" width="12" height="92" rx="3" fill="#9b3a22"/>
+  <rect x="22" y="54" width="12" height="14" rx="3" fill="#c8923a"/>
+
+  <!-- ===== letter tile: L (ochre) ===== -->
+  <rect x="48" y="68" width="56" height="64" rx="7" fill="#c8923a"/>
+  <rect x="48" y="68" width="56" height="9" rx="4" fill="#efe6d2" opacity="0.35"/>
+  <!-- glyph L built from flat bars -->
+  <rect x="64" y="80" width="10" height="34" fill="#221f17"/>
+  <rect x="64" y="104" width="26" height="10" fill="#221f17"/>
+
+  <!-- ===== letter tile: E (cream) ===== -->
+  <rect x="112" y="68" width="56" height="64" rx="7" fill="#efe6d2"/>
+  <rect x="112" y="68" width="56" height="9" rx="4" fill="#ffffff" opacity="0.4"/>
+  <!-- glyph E -->
+  <rect x="128" y="80" width="10" height="34" fill="#9b3a22"/>
+  <rect x="128" y="80" width="26" height="9" fill="#9b3a22"/>
+  <rect x="128" y="92" width="22" height="9" fill="#9b3a22"/>
+  <rect x="128" y="105" width="26" height="9" fill="#9b3a22"/>
+
+  <!-- ===== letter tile: T (olive) ===== -->
+  <rect x="176" y="68" width="56" height="64" rx="7" fill="#6f6a3b"/>
+  <rect x="176" y="68" width="56" height="9" rx="4" fill="#efe6d2" opacity="0.3"/>
+  <!-- glyph T -->
+  <rect x="188" y="80" width="32" height="9" fill="#efe6d2"/>
+  <rect x="199" y="80" width="10" height="34" fill="#efe6d2"/>
+
+  <!-- ===== incoming tile from the right (oxblood) partly off-lane ===== -->
+  <rect x="240" y="68" width="56" height="64" rx="7" fill="#9b3a22"/>
+  <rect x="240" y="68" width="56" height="9" rx="4" fill="#efe6d2" opacity="0.3"/>
+  <!-- glyph A built from flat bars -->
+  <polygon points="268,80 278,80 286,114 276,114 273,104 273,104" fill="#efe6d2"/>
+  <polygon points="268,80 258,80 250,114 260,114 263,104 263,104" fill="#efe6d2"/>
+  <rect x="261" y="100" width="14" height="8" fill="#efe6d2"/>
+  <rect x="261" y="100" width="14" height="8" fill="#9b3a22"/>
+  <rect x="262" y="101" width="12" height="6" fill="#9b3a22"/>
+
+  <!-- motion: tiles run to the left -->
+  <polygon points="150,168 138,176 150,184 150,179 168,179 168,173 150,173" fill="#9b3a22"/>
+  <polygon points="116,168 104,176 116,184 116,179 132,179 132,173 116,173" fill="#c8923a"/>
+  <polygon points="186,168 174,176 186,184 186,179 202,179 202,173 186,173" fill="#6f6a3b"/>
+
+  <!-- little new-letter-entering arrow on the right edge -->
+  <polygon points="298,96 286,104 298,112 298,107 282,107 282,101 298,101" fill="#c8923a"/>
+</svg>

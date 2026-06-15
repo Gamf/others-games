@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#efe6d2"/>
+
+  <!-- striped fill pattern (oxblood) -->
+  <defs/>
+
+  <!-- ===== Card 1: two solid oxblood diamonds ===== -->
+  <rect x="22" y="44" width="78" height="112" rx="8" fill="#fdfaf0" stroke="#221f17" stroke-width="3"/>
+  <polygon points="61,62 78,82 61,102 44,82" fill="#9b3a22"/>
+  <polygon points="61,98 78,118 61,138 44,118" fill="#9b3a22"/>
+
+  <!-- ===== Card 2: three open ochre ovals (striped via lines) ===== -->
+  <rect x="121" y="32" width="78" height="112" rx="8" fill="#fdfaf0" stroke="#221f17" stroke-width="3"/>
+  <rect x="143" y="46" width="34" height="26" rx="13" fill="#efe6d2" stroke="#c8923a" stroke-width="3"/>
+  <rect x="151" y="49" width="3" height="20" fill="#c8923a"/>
+  <rect x="159" y="49" width="3" height="20" fill="#c8923a"/>
+  <rect x="167" y="49" width="3" height="20" fill="#c8923a"/>
+  <rect x="143" y="78" width="34" height="26" rx="13" fill="#efe6d2" stroke="#c8923a" stroke-width="3"/>
+  <rect x="151" y="81" width="3" height="20" fill="#c8923a"/>
+  <rect x="159" y="81" width="3" height="20" fill="#c8923a"/>
+  <rect x="167" y="81" width="3" height="20" fill="#c8923a"/>
+  <rect x="143" y="110" width="34" height="26" rx="13" fill="#efe6d2" stroke="#c8923a" stroke-width="3"/>
+  <rect x="151" y="113" width="3" height="20" fill="#c8923a"/>
+  <rect x="159" y="113" width="3" height="20" fill="#c8923a"/>
+  <rect x="167" y="113" width="3" height="20" fill="#c8923a"/>
+
+  <!-- ===== Card 3: one open olive squiggle (drawn as a wavy lozenge) ===== -->
+  <rect x="220" y="50" width="78" height="112" rx="8" fill="#fdfaf0" stroke="#221f17" stroke-width="3"/>
+  <path d="M242 84 q10 -16 17 -4 q7 12 17 0 q9 -10 9 6 q0 18 -10 22 q-9 4 -16 -6 q-7 -10 -16 -2 q-7 6 -7 -6 q0 -10 6 -10 z" fill="#6f6a3b"/>
+  <path d="M242 122 q10 -16 17 -4 q7 12 17 0 q9 -10 9 6 q0 18 -10 22 q-9 4 -16 -6 q-7 -10 -16 -2 q-7 6 -7 -6 q0 -10 6 -10 z" fill="#9b3a22"/>
+</svg>
