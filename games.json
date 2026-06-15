@@ -499,15 +499,18 @@
       "slug": "minecraft",
       "title": "Minecraft",
       "category": "Sandbox",
-      "path": "https://gamf.github.io/minecraft-web-client/",
+      "path": "https://mcraft.fun/",
       "icon": "🎮",
       "dims": "3D",
       "tags": [
-        "sandbox"
+        "sandbox",
+        "voxel",
+        "three.js"
       ],
       "license": "MIT",
       "author": "zardoy",
-      "source": "https://github.com/Gamf/minecraft-web-client"
+      "source": "https://github.com/Gamf/minecraft-web-client",
+      "note": "official hosted build (the source fork is build-only)"
     },
     {
       "slug": "adarkroom",
