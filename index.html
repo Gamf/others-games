@@ -3,42 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-  <meta name="theme-color" content="#15110e">
-  <title>Classics &amp; More — Gamf Arcade</title>
-  <meta name="description" content="Open-source classics by other developers — forked, touch-tuned, and hosted here with full credit. Insert coin.">
+  <meta name="theme-color" content="#efe6d2">
+  <title>Borrowed — GAMF Quarterly</title>
+  <meta name="description" content="Borrowed games — small, free, open-source games by other people, kept here with thanks and their own authors & licences.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="gamf.css">
-  <style>
-    .gx-cab__meta{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:0 12px 13px;background:var(--gx-panel)}
-    .gx-cab__by{font-family:var(--gx-font-mono);font-size:10px;letter-spacing:1px;color:var(--gx-text-3);text-transform:uppercase}
-    .gx-cab__meta .gx-btn{margin-left:auto}
-    .gx-section-sub{color:var(--gx-text-2);font-family:var(--gx-font-mono);font-size:13px;letter-spacing:.5px;margin:8px 0 0}
-  </style>
 </head>
 <body class="gx">
   <script src="gamf-icons.js"></script>
   <script src="gamf-stats.js"></script>
-  <div class="gx-vignette" aria-hidden="true"></div>
 
   <nav class="gx-nav">
-    <div class="gx-nav__bar"></div>
     <div class="gx-nav__inner">
-      <a class="gx-logo" href="../">
-        <span class="gx-logo__mark">G</span>
-        <span class="gx-logo__word">GAMF</span>
-      </a>
+      <a class="gx-logo" href="../">GAMF</a>
       <span class="gx-nav__spacer"></span>
-      <a class="gx-hiscores" href="../stats.html"><svg class="gx-ico"><use href="#i-trophy"/></svg> Hi-Scores</a>
-      <a class="gx-back" href="../"><svg class="gx-ico"><use href="#i-back"/></svg> Hub</a>
+      <a class="gx-hiscores" href="../stats.html">your scores</a>
+      <a class="gx-back" href="../">← the rack</a>
     </div>
   </nav>
 
   <div class="gx-wrap">
     <header>
-      <h2 class="gx-section-title">CLASSICS &amp; MORE</h2>
-      <p class="gx-section-sub">Open-source classics by other developers — forked, touch-tuned, hosted here with full credit.</p>
+      <h2 class="gx-section-title">Borrowed — games by other people, with thanks</h2>
     </header>
 
     <main id="cats">
@@ -50,31 +38,20 @@
     </main>
 
     <footer class="gx-foot">
-      <div class="gx-foot__bar"></div>
-      <div class="gx-foot__grid">
-        <div class="gx-foot__coin">
-          <div class="gx-foot__slot"><span class="s"></span><span class="c">25¢</span></div>
-          <div>
-            <span class="gx-foot__cap">INSERT COIN</span>
-            <span class="gx-foot__sub">Credits 00 · Free Play</span>
-          </div>
-        </div>
-        <div class="gx-foot__meta">
-          <span>Each Game Keeps Its Author &amp; License</span>
-          <span>Hosted On GitHub Pages</span>
-          <span class="dim">© 1986–2026 GAMF Arcade</span>
-        </div>
+      <div class="gx-foot__meta">
+        <p>Borrowed from people with taste — every game here keeps its own author and licence, credited and never stolen.</p>
+        <p class="dim">Set in Fraunces &amp; Newsreader · hosted on GitHub Pages.</p>
       </div>
     </footer>
   </div>
 
   <script type="module">
     const CAT_ICON = { 'Puzzle & Board': 'i-puzzle', 'Arcade & Retro': 'i-arcade', '3D / WebGL': 'i-cube', 'Cards & Casual': 'i-coin' };
+    const GENRE = 'others-games';
     const esc = (s = '') => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const fmt = (n) => Number(n).toLocaleString('en-US');
-    const ico = (id, cls) => `<svg class="gx-ico${cls ? ' ' + cls : ''}"><use href="#${id}"/></svg>`;
-    function hashStr(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
-    const slugify = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    const ico = (id) => `<svg class="gx-ico"><use href="#${id}"/></svg>`;
+    const bestOf = (slug) => { try { return +(localStorage.getItem(`gamf-${GENRE}-${slug}-best`)) || 0; } catch { return 0; } };
 
     init();
 
@@ -84,11 +61,7 @@
       try { data = await fetchJSON(new URL('games.json', document.baseURI)); }
       catch (e) {
         const main = document.getElementById('cats');
-        main.innerHTML = '';
-        const err = document.createElement('p');
-        err.className = 'gx-error';
-        err.textContent = `Couldn't load games.json — ${e.message}`;
-        main.appendChild(err);
+        main.innerHTML = `<p class="gx-error">The press jammed — couldn't load games.json (${esc(e.message)}).</p>`;
         return;
       }
 
@@ -102,21 +75,16 @@
       const main = document.getElementById('cats');
       main.innerHTML = cats.map((cat) => section(cat, byCat[cat])).join('');
 
-      main.querySelectorAll('.gx-cabinet').forEach((b, i) => {
-        b.addEventListener('click', (ev) => {
-          if (ev.target.closest('a')) return;
+      main.querySelectorAll('.gx-cabinet').forEach((a, i) => {
+        a.addEventListener('click', (ev) => {
+          if (ev.target.closest('.gx-btn')) return; // let the source link do its own thing
+          ev.preventDefault();
           launch(flat[i]);
         });
       });
     }
 
     function decorate(game) {
-      const genreSlug = slugify(game.category);
-      const h = hashStr((game.slug || game.title) + genreSlug);
-      const rating = game.rating != null ? game.rating : 3 + (h % 3);
-      const score = game.score != null ? game.score : 5000 + (h % 1495000);
-      const hot = game.hot != null ? game.hot
-        : (/classic|retro|arcade/i.test((game.tags || []).join(' ')) || h % 5 === 0);
       return {
         slug: game.slug,
         title: game.title,
@@ -128,7 +96,7 @@
         source: game.source || '',
         url: new URL(game.path, document.baseURI).href,
         icon: CAT_ICON[game.category] || 'i-coin',
-        rating, score, hot,
+        best: bestOf(game.slug),
       };
     }
 
@@ -136,36 +104,32 @@
       return `<section>
         <div class="gx-cabhead">
           <h2>${esc(cat)}</h2>
-          <span class="gx-cabhead__count">${list.length} ${list.length === 1 ? 'Cabinet' : 'Cabinets'}</span>
+          <span class="gx-cabhead__count">${list.length} ${list.length === 1 ? 'entry' : 'entries'}</span>
         </div>
         <div class="gx-grid">${list.map(cabinet).join('')}</div>
       </section>`;
     }
 
-    function ratingTicks(r) {
-      let s = '';
-      for (let i = 0; i < 5; i++) s += `<span class="${i < r ? 'on' : ''}"></span>`;
-      return `<div class="gx-rate">${s}</div>`;
-    }
-
     function cabinet(g) {
-      return `<button class="gx-cabinet" aria-label="Play ${esc(g.title)}, ${esc(g.category)}">
+      // Real local best if the reader has one; otherwise the borrowed-game meta
+      // (licence · by author), since forks have no fabricated score.
+      let hi;
+      if (g.best > 0) {
+        hi = `Best ${fmt(g.best)}`;
+      } else {
+        const bits = [];
+        if (g.license) bits.push(g.license);
+        if (g.author) bits.push(`by ${g.author}`);
+        hi = bits.join(' · ') || (g.tags.slice(0, 2).join(', ') || g.dims);
+      }
+      const src = g.source
+        ? `<a class="gx-btn gx-btn--sm" href="${esc(g.source)}" target="_blank" rel="noopener">${ico('i-search')} source</a>`
+        : '';
+      return `<a class="gx-cabinet" href="${esc(g.url)}">
         <div class="gx-cab__plate">${ico(g.icon)}<span class="gx-cab__genre">${esc(g.category)}</span><span class="gx-cab__dims">${esc(g.dims)}</span></div>
-        <div class="gx-cab__cover${g.hot ? ' is-hot' : ''}">
-          <span class="gx-cab__big">${ico(g.icon)}</span>
-          ${g.hot ? `<span class="gx-cab__hot">${ico('i-bolt')} Hot</span>` : ''}
-          <h3 class="gx-cab__title">${esc(g.title.toUpperCase())}</h3>
-        </div>
-        <div class="gx-cab__ctrl">
-          <div style="min-width:0">${ratingTicks(g.rating)}<span class="gx-cab__hi">HI ${fmt(g.score)}</span></div>
-          <span class="gx-cab__play">${ico('i-play')} Play</span>
-        </div>
-        <div class="gx-cab__meta">
-          ${g.license ? `<span class="gx-badge">${esc(g.license)}</span>` : ''}
-          ${g.author ? `<span class="gx-cab__by">by ${esc(g.author.toUpperCase())}</span>` : ''}
-          ${g.source ? `<a class="gx-btn gx-btn--ghost gx-btn--sm" href="${esc(g.source)}" target="_blank" rel="noopener">${ico('i-search')} Source</a>` : ''}
-        </div>
-      </button>`;
+        <h3 class="gx-cab__title">${esc(g.title)}</h3>
+        <div class="gx-cab__ctrl"><span class="gx-cab__hi">${esc(hi)}${src}</span><span class="gx-cab__play">Play</span></div>
+      </a>`;
     }
 
     let navigating = false;
